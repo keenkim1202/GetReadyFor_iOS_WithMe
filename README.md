@@ -313,3 +313,6 @@ plist는 property list의 약자에요.
 루트 XML 노드는 키, 값으로 구성된 딕셔너리 형태입니다.
 - Bundle, build 정보, 메인 스토리보드의 이름 등이 들어있습니다.
 자세한 내용은 [공식문서](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009248-SW1)를 참조하세요!
+
+우리가 실질적으로 이 아이를 사용하게 될때는 언제인가 하면
+- 예를 들어, 화면을 항상 라이트 모드로 고정하고 싶을 때, 스토리보드 없이 코드 베이스로 화면을 구성하고 싶을 때, APIKey 값을 넣어줄 때 등이 있겠네요ㅎㅎ
