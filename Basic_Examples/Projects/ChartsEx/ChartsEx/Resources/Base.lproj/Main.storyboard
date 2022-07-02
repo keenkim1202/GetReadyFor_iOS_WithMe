@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChartsEx" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vb4-Gi-xF6">
+                                <rect key="frame" x="150" y="328" width="114" height="31"/>
+                                <color key="backgroundColor" red="0.59840669020000004" green="0.76942896839999997" blue="0.50264890139999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Line Chart"/>
+                                <connections>
+                                    <segue destination="6xe-bw-1uc" kind="show" id="ZXO-kH-NoN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbB-or-ryH">
+                                <rect key="frame" x="150" y="459" width="114" height="31"/>
+                                <color key="backgroundColor" red="0.59840669020000004" green="0.76942896839999997" blue="0.50264890139999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Bar Chart"/>
+                                <connections>
+                                    <segue destination="uwK-Es-CZ7" kind="show" id="0H3-AI-JTh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vb4-Gi-xF6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="5ls-ge-Sld"/>
+                            <constraint firstItem="FbB-or-ryH" firstAttribute="top" secondItem="vb4-Gi-xF6" secondAttribute="bottom" constant="100" id="5na-Ky-jZb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FbB-or-ryH" secondAttribute="trailing" constant="150" id="FRW-a1-UcA"/>
+                            <constraint firstItem="vb4-Gi-xF6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="284" id="jBX-dn-xPP"/>
+                            <constraint firstItem="FbB-or-ryH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="ubq-uL-l7H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vb4-Gi-xF6" secondAttribute="trailing" constant="150" id="ykv-KH-rzt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="110"/>
+        </scene>
+        <!--Line View Controller-->
+        <scene sceneID="kRx-mP-Ov9">
+            <objects>
+                <viewController id="6xe-bw-1uc" customClass="LineViewController" customModule="ChartsEx" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Sq-OQ-2LS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6H-Gg-bnJ" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="30" y="74" width="354" height="189"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="b6H-Gg-bnJ" secondAttribute="height" multiplier="15:8" id="Lnc-Wg-7lL"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="FyD-7A-T9O">
+                                <rect key="frame" x="30" y="313" width="354" height="34"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BVg-6p-U9d">
+                                        <rect key="frame" x="0.0" y="0.0" width="235.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0e9-mx-Hdt">
+                                        <rect key="frame" x="265.5" y="0.0" width="88.5" height="34"/>
+                                        <color key="backgroundColor" red="1" green="0.72354034170000003" blue="0.78080199780000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="데이터 추가"/>
+                                        <connections>
+                                            <action selector="addButtonClicked:" destination="6xe-bw-1uc" eventType="touchUpInside" id="m1l-wS-wFQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="siU-oi-72i"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="b6H-Gg-bnJ" firstAttribute="top" secondItem="siU-oi-72i" secondAttribute="top" constant="30" id="4FV-i8-zO0"/>
+                            <constraint firstItem="siU-oi-72i" firstAttribute="trailing" secondItem="b6H-Gg-bnJ" secondAttribute="trailing" constant="30" id="LZv-eT-n1r"/>
+                            <constraint firstItem="b6H-Gg-bnJ" firstAttribute="leading" secondItem="siU-oi-72i" secondAttribute="leading" constant="30" id="WUd-Gk-aY9"/>
+                            <constraint firstItem="FyD-7A-T9O" firstAttribute="top" secondItem="b6H-Gg-bnJ" secondAttribute="bottom" constant="50" id="WsQ-F4-BhR"/>
+                            <constraint firstItem="FyD-7A-T9O" firstAttribute="leading" secondItem="siU-oi-72i" secondAttribute="leading" constant="30" id="ZPI-Jn-Ial"/>
+                            <constraint firstItem="siU-oi-72i" firstAttribute="trailing" secondItem="FyD-7A-T9O" secondAttribute="trailing" constant="30" id="hbC-g5-xkw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xDp-kH-3ZN"/>
+                    <connections>
+                        <outlet property="chartView" destination="b6H-Gg-bnJ" id="o0I-o8-uFu"/>
+                        <outlet property="numberTextField" destination="BVg-6p-U9d" id="Ofr-tC-tYL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fm9-2G-7Oy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1054" y="-344"/>
+        </scene>
+        <!--Bar View Controller-->
+        <scene sceneID="F5T-pj-nQA">
+            <objects>
+                <viewController id="uwK-Es-CZ7" customClass="BarViewController" customModule="ChartsEx" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5z0-lu-81p">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EXo-xB-dkO" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="30" y="74" width="354" height="189"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EXo-xB-dkO" secondAttribute="height" multiplier="15:8" id="wnw-AZ-9FJ"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="t8r-0E-skH">
+                                <rect key="frame" x="30" y="313" width="354" height="34"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V7D-2Z-Cjy">
+                                        <rect key="frame" x="0.0" y="0.0" width="235.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avW-s9-6DX">
+                                        <rect key="frame" x="265.5" y="0.0" width="88.5" height="34"/>
+                                        <color key="backgroundColor" red="1" green="0.72354034170000003" blue="0.78080199780000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="데이터 추가"/>
+                                        <connections>
+                                            <action selector="addButtonClicked:" destination="uwK-Es-CZ7" eventType="touchUpInside" id="yCF-8g-st8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Mdc-b2-0xE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EXo-xB-dkO" firstAttribute="top" secondItem="Mdc-b2-0xE" secondAttribute="top" constant="30" id="2PH-By-erv"/>
+                            <constraint firstItem="Mdc-b2-0xE" firstAttribute="trailing" secondItem="t8r-0E-skH" secondAttribute="trailing" constant="30" id="5eO-rJ-3Sb"/>
+                            <constraint firstItem="EXo-xB-dkO" firstAttribute="leading" secondItem="Mdc-b2-0xE" secondAttribute="leading" constant="30" id="c2O-zC-t8d"/>
+                            <constraint firstItem="t8r-0E-skH" firstAttribute="top" secondItem="EXo-xB-dkO" secondAttribute="bottom" constant="50" id="fKR-26-n0H"/>
+                            <constraint firstItem="Mdc-b2-0xE" firstAttribute="trailing" secondItem="EXo-xB-dkO" secondAttribute="trailing" constant="30" id="gb7-68-1gj"/>
+                            <constraint firstItem="t8r-0E-skH" firstAttribute="leading" secondItem="Mdc-b2-0xE" secondAttribute="leading" constant="30" id="y4i-lh-ox4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zTH-wx-zwO"/>
+                    <connections>
+                        <outlet property="barChartView" destination="EXo-xB-dkO" id="w3J-3E-aN7"/>
+                        <outlet property="dataTextField" destination="V7D-2Z-Cjy" id="OaT-Tc-EKJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ybK-at-4ta" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1054" y="516"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

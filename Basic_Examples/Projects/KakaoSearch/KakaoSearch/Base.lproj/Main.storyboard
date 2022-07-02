@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KakaoSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="pP2-uM-cq1">
+                                <rect key="frame" x="0.0" y="61" width="414" height="51"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kHi-Y8-dn2">
+                                <rect key="frame" x="0.0" y="105" width="414" height="757"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="bookCell" rowHeight="136" id="aHz-MZ-QDg" customClass="BookTableViewCell" customModule="KakaoSearch" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="136"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aHz-MZ-QDg" id="fb3-RS-U9l">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="136"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cFO-0X-csd">
+                                                    <rect key="frame" x="20" y="11" width="90.5" height="114"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ko-pd-Dm7">
+                                                    <rect key="frame" x="120.5" y="41" width="283.5" height="85"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ye7-aR-aid">
+                                                    <rect key="frame" x="120.5" y="10" width="283.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="cFO-0X-csd" secondAttribute="bottom" constant="11" id="0ej-cl-mk1"/>
+                                                <constraint firstItem="cFO-0X-csd" firstAttribute="leading" secondItem="fb3-RS-U9l" secondAttribute="leading" constant="20" symbolic="YES" id="8rQ-lE-ngn"/>
+                                                <constraint firstItem="cFO-0X-csd" firstAttribute="top" secondItem="fb3-RS-U9l" secondAttribute="top" constant="11" id="Fkn-Mj-3gY"/>
+                                                <constraint firstItem="ye7-aR-aid" firstAttribute="top" secondItem="fb3-RS-U9l" secondAttribute="top" constant="10" id="FmT-ao-vxY"/>
+                                                <constraint firstAttribute="bottom" secondItem="8ko-pd-Dm7" secondAttribute="bottom" constant="10" id="HS5-Zv-hdA"/>
+                                                <constraint firstItem="cFO-0X-csd" firstAttribute="width" secondItem="fb3-RS-U9l" secondAttribute="height" multiplier="1:1.5" id="K8Z-bl-6h2"/>
+                                                <constraint firstItem="8ko-pd-Dm7" firstAttribute="top" secondItem="ye7-aR-aid" secondAttribute="bottom" constant="10" id="M0g-GA-m8p"/>
+                                                <constraint firstAttribute="trailing" secondItem="8ko-pd-Dm7" secondAttribute="trailing" constant="10" id="M1c-eZ-K32"/>
+                                                <constraint firstItem="8ko-pd-Dm7" firstAttribute="leading" secondItem="cFO-0X-csd" secondAttribute="trailing" constant="10" id="VVK-OR-NV4"/>
+                                                <constraint firstItem="ye7-aR-aid" firstAttribute="leading" secondItem="cFO-0X-csd" secondAttribute="trailing" constant="10" id="h3H-jt-Iwt"/>
+                                                <constraint firstAttribute="trailing" secondItem="ye7-aR-aid" secondAttribute="trailing" constant="10" id="wk1-tG-qhr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="bookImageView" destination="cFO-0X-csd" id="WTq-x9-d4I"/>
+                                            <outlet property="contentLabel" destination="8ko-pd-Dm7" id="aag-Rl-QcX"/>
+                                            <outlet property="titleLabel" destination="ye7-aR-aid" id="u26-DR-5CW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kHi-Y8-dn2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0P2-Aq-kvx"/>
+                            <constraint firstItem="kHi-Y8-dn2" firstAttribute="top" secondItem="pP2-uM-cq1" secondAttribute="bottom" constant="-7" id="56Y-Xv-xhh"/>
+                            <constraint firstItem="pP2-uM-cq1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qjo-gf-LtG"/>
+                            <constraint firstItem="pP2-uM-cq1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="Te4-s2-Iju"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pP2-uM-cq1" secondAttribute="trailing" id="a69-mb-j7U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kHi-Y8-dn2" secondAttribute="trailing" id="bKR-fw-Liy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kHi-Y8-dn2" secondAttribute="bottom" id="zH2-R5-jX1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bookTableView" destination="kHi-Y8-dn2" id="RTH-Og-Iih"/>
+                        <outlet property="searchBar" destination="pP2-uM-cq1" id="Z76-E1-HOL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="124.55357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
