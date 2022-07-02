@@ -23,29 +23,30 @@ iOS 개발자를 꿈꾸는 분들 환영합니다.
 > 입문자의 경우 판단하기 어려우므로 입문자가 읽기 쉬운, 좋은 도서는 별점이 낮습니다.
 
 - [ 클린 시리즈 ]
-    - 클린 코드 `⭐️⭐️`
-    - 클린 아키텍처 `⭐️⭐️⭐️⭐️`
-- [ 객제 지향 관련 ]
-
+    - [클린 코드](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=34083680) `⭐️⭐️`
+    - [클린 아키텍처](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=202322454) `⭐️⭐️⭐️⭐️`
 - [ 프로그래머를 위한 지침서 ]
-    - 실용주의 프로그래머 `⭐️`
-    - 프로그래밍 수련법 `⭐️`
+    - [실용주의 프로그래머](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=288786463) `⭐️`
+    - [프로그래밍 수련법](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=1711579) `⭐️`
 - [ 아키텍처 ]
-    - 리팩터링 `⭐️⭐️⭐️⭐️`
-    - 객체지향의 사실과 오해 `⭐️⭐️⭐️`
-    - 오브젝트 `⭐️⭐️⭐️⭐️`
+    - [리팩터링](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=236186172) `⭐️⭐️⭐️⭐️`
+- [ 프로그래밍 패러다임 ]
+    - [객체지향의 사실과 오해](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=60550259) `⭐️⭐️⭐️`
+    - [오브젝트](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=193681076) `⭐️⭐️⭐️⭐️`
+    - [함수형 사고](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=85956851) `⭐️⭐️⭐️`
+    - [쏙쏙 들어오는 함수형 코딩](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=292349292) `⭐️⭐️⭐️`
 - [ CS 지식 채우기 ]
-    - 자료구조와 함께 배우는 알고리즘 입문 `⭐️⭐️`
-    - Introduction Of Algorithm `⭐️⭐️⭐️⭐️`
-    - 이것이 코딩테스트다 - 나동빈 `⭐️⭐️`
-- [ 기타 서적 ]
-    - 함수형 사고 `⭐️⭐️⭐️`
-    - 테스트 주도 설계(TDD) `⭐️⭐️⭐️`
-    - 나는 LINE 개발자 입니다 `⭐️`
+    - [자료구조와 함께 배우는 알고리즘 입문 - Python](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=246435695) `⭐️⭐️`
+    - [Introduction To Algorithms - C](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=43636357) `⭐️⭐️⭐️⭐️`
+    - [이것이 코딩테스트다 - Python](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=247882118&start=slayer) `⭐️⭐️`
+- [ 개발 프로세스 & 방법론 ]
+    - [테스트 주도 개발(TDD)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=37469717) `⭐️⭐️⭐️`
 - [ Swift 관련 ]
-    - 꼼꼼한 재은씨 시리즈 - 이재은 `⭐️`
+    - [꼼꼼한 재은씨 시리즈](https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EA%BC%BC%EA%BC%BC%ED%95%9C+%EC%9E%AC%EC%9D%80+%EC%94%A8%EC%9D%98+%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8&x=0&y=0) `⭐️`
     - [스위프트 프로그래밍](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162242223) `⭐️⭐️`
-
+- [ 기타 서적 ]
+    - [나는 LINE 개발자 입니다](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=204587884) `⭐️`
+    - [함께 자라기](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=175977462&start=slayer) `⭐️`
 
 </br>
 
@@ -94,7 +95,17 @@ Swift와 iOS 두 개의 과목을 공부한다고 생각하시면 됩니다.
     - 기존의 UI와 동일하게 화면을 구성해보고, 기능을 구현해보세요!
     - 내가 사용하고 있던 앱들이라 친숙하게 다가올 겁니다.
 
-### 3) 나만의 앱 만들어보기
+### 3) WWDC
+WWDC는 Apple사가 매년 6월즈음 캘리포니아에서 개최하는 대규모 개발자 회의입니다.  
+아마 이전까지는 새로운 애플 기기 발표나 아이폰에 카메라 갯수가 늘었나에 대해서만 보셨을 거에요 😂
+이제부터는 달라저야 합니다! 우리는 유망한 iOS개발자 들이잖아요?? 😉
+
+WWDC에는 iOS, Swift가 업데이트 되면서 생기는 신 기능에 대한 발표와 다양한 세션에 대한 발표가 이루어집니다.
+이제부터는 관심을 기울이고, 이전 세션들을 쭉 훑어보면서 관심있는 세션을 들어보고 예제를 따라해보고, 직접 미니 프로젝트를 만들어 적용해보세요!
+
+[WWDC22 당장 보러가기](https://developer.apple.com/wwdc22/)
+
+### 4) 나만의 앱 만들어보기
 내가 만들고 싶은 앱을 직접 구상하여 만들어보는 경험을 해보는 것은 중요합니다.
 - 제작자의 입장, 사용자의 입장에서 생각해보고 기능을 구상하고 직접 구현해보세요!
 
