@@ -1,8 +1,9 @@
-# GetReadyFor_iOS_WithMe
+# Get Ready For iOS With Me
 저와 함께 iOS 개발자가 되는 첫걸음을 시작해보세요~!
 
-iOS 개발자를 꿈꾸는 분들 환영합니다.
-무엇을 공부하고 어떻게 해야할지 고민이 많으시죠?? 제가 경험한 내용을 바탕으로 가이드를 작성해보았습니다.
+iOS 개발자를 꿈꾸는 분들 환영합니다 ~~  
+미래의 저의 후배님들 이군요? ^^  
+무엇을 공부하고 어떻게 해야할지 고민이 많으시죠?? 제가 경험한 내용을 바탕으로 일종의 로드맵(?) 가이드(?)를 작성해볼까 합니다.
 도움이 되셨으면 좋겠고 또 궁금한게 있으시면 이슈로 남겨주세요 :)
 
 ## 목차
@@ -74,7 +75,12 @@ Swift와 iOS 두 개의 과목을 공부한다고 생각하시면 됩니다.
 </br>
 
 그런 후에 야곰님의 [야곰의 스위프트 기본 문법 강좌](https://www.inflearn.com/course/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95)를 보는 것을 추천드려요! 
+
+<img width="500" alt="스크린샷 2022-07-02 오후 11 20 15" src="https://user-images.githubusercontent.com/59866819/177007378-a0d747f7-26d5-4c49-8c5f-919f795122e6.png">
+
 + 위의 [개발 관련 서적](#개발-관련-서적-추천)의 스위프트 프로그래밍 책도 야곰님이 쓰신 책이에요! 함께 참고하면 좋습니다.
+
+
 
 ### 2) iOS 프로젝트
 그러고 나서 iOS 프로젝트를 만들어나가기 시작해보세요!  
@@ -97,6 +103,9 @@ Swift와 iOS 두 개의 과목을 공부한다고 생각하시면 됩니다.
 
 ### 3) WWDC
 WWDC는 Apple사가 매년 6월즈음 캘리포니아에서 개최하는 대규모 개발자 회의입니다.  
+
+<img width="500" alt="스크린샷 2022-07-03 오전 12 30 01" src="https://user-images.githubusercontent.com/59866819/177007451-76625e51-178a-4c10-ab75-6eea88333322.png">
+
 아마 이전까지는 새로운 애플 기기 발표나 아이폰에 카메라 갯수가 늘었나에 대해서만 보셨을 거에요 😂
 이제부터는 달라저야 합니다! 우리는 유망한 iOS개발자 들이잖아요?? 😉
 
@@ -125,10 +134,18 @@ WWDC에는 iOS, Swift가 업데이트 되면서 생기는 신 기능에 대한 �
 ### 1) 프로젝트 생성하는 방법
 - Xcode를 켠다.
 - `Create a new xcode project` 클릭
+<img width="500" alt="1" src="https://user-images.githubusercontent.com/59866819/177007392-0f7d3b7e-752c-4f1d-adb7-58aca7115c4a.png">
+
 - iOS > App 선택 후 Next 클릭
+<img width="500" alt="2" src="https://user-images.githubusercontent.com/59866819/177007404-a9bcfd43-05c6-4970-b7a4-b88b167a5074.png">
+
 - 프로젝트명 작성 후 Next 클릭
 (SwiftUI의 경우, Interface를 `SwiftUI`로 설정)
+<img width="500" alt="3" src="https://user-images.githubusercontent.com/59866819/177007409-5ed86e1d-fef8-4e59-a07a-867444f42ebc.png">
+
+
 - 프로젝트 생성 완료!
+<img width="500" alt="프로젝트 생성후" src="https://user-images.githubusercontent.com/59866819/177007422-882f7038-1941-4dde-aa08-ed969082629a.png">
 
 `Main.Storyboard`에 UI를 구성하고, `ViewController.swift` 에 코드를 작성해보세요!
 
@@ -143,6 +160,9 @@ WWDC에는 iOS, Swift가 업데이트 되면서 생기는 신 기능에 대한 �
 
 
 ## 프로젝트를 처음 생성하면 나오는 파일들은 뭐하는 녀석들인가요?
+
+<img width="255" alt="스크린샷 2022-07-02 오후 11 49 55" src="https://user-images.githubusercontent.com/59866819/177007434-2db26b62-a2da-4f9d-a250-679a094af272.png">
+
 프로젝트를 처음 생성하면 아래와 같은 파일들이 왼쪽 Project Navigator에 있을거에요!
 - AppDelegate.swift
 - SceneDelegate.swift
@@ -190,6 +210,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 ```
 
 > SceneDelegate.swift
+
+<img width="772" alt="스크린샷 2022-07-03 오전 12 17 54" src="https://user-images.githubusercontent.com/59866819/177007447-ccaa1c6e-375d-4bad-9c9f-0d32238f91e3.png">
+
+<img width="775" alt="스크린샷 2022-07-03 오전 12 18 00" src="https://user-images.githubusercontent.com/59866819/177007449-70e75174-fd85-4a05-ae4d-231ded29b85e.png">
 
 iOS13을 기준으로 AppDelegate에서 일부 기능을 분리 및 추가하여 새로 생긴 파일입니다.
 iOS13부터 Scene을 여러개 사용할 수 있게 되었습니다.
