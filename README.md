@@ -308,3 +308,8 @@ asset을 번역하면 '자산' 이죠? 이 앱에서 필요로 하는 리소스�
 > Info.plist
 
 plist는 property list의 약자에요.
+실행 패키지에 관한 필수 설정 정보가 포함된 구조화된 텍스트 파일로,  
+일반적으로 유니코드 UTF-8로 인코딩되며 내용은 XML로 되어있습니다.
+루트 XML 노드는 키, 값으로 구성된 딕셔너리 형태입니다.
+- Bundle, build 정보, 메인 스토리보드의 이름 등이 들어있습니다.
+자세한 내용은 [공식문서](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009248-SW1)를 참조하세요!
