@@ -3,7 +3,7 @@
 > 주변 iOS 입문자분들에게 알려주면서 작성한 프로젝트이기에 프로젝트에 대한 설명이 부족할 수 있습니다.
 > 해당 프로젝트와 관련된 개념에 대해 간단히 서술해두었습니다.
 ## 폴더 구조
-- [AutoLayout 연습하기](/Projects/AutoLayoutPractice/)
+- [AutoLayout 연습하기](/Basic_Examples/Projects/AutoLayoutPractice/)
     - 아웃렛 연결하기
     - UI 구성하고 제약조건 연습하기
 - [계산기](Basic_Examples/Projects/Calculator/)
