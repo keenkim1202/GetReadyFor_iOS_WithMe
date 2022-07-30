@@ -23,6 +23,7 @@ iOS 개발자를 꿈꾸는 분들 환영합니다 ~~
 
 - iOS 관련..
     - [뭐부터 공부하면 좋을까요?](#뭐부터-공부하면-좋을까요)
+        - [무엇부터 공부하면 모를 때 보면 좋은 애플 기본 라이브러리 오브젝트 및 문법 공부 목록](#무엇부터-공부하면-모를-때-보면-좋은-애플-기본-라이브러리-오브젝트-및-문법-공부-목록)
     - [프로젝트를 하고 싶은데 Xcode의 X도 모르겠어요..](#프로젝트를-하고-싶은데-xcode의-x도-모르겠어요)
     - [프로젝트를 처음 생성하면 나오는 파일들은 뭐하는 녀석들인가요?](#프로젝트를-처음-생성하면-나오는-파일들은-뭐하는-녀석들인가요)
     - [iOS는 코딩테스트 언어는 무엇으로 하면 좋나요, 아무거나 상관없나요?](#ios는-코딩테스트-언어는-무엇으로-하면-좋나요-아무거나-상관없나요)
@@ -143,6 +144,105 @@ WWDC에는 iOS, Swift가 업데이트 되면서 생기는 신 기능에 대한 �
 이왕이면 앱스토어에 출시도 해보세요! 
 - 출시해보는 경험을 통해 심사 제출 준비, 배포, 리젝, 업데이트, 테스트플라이트를 해보면서 배포 사이클을 직접 경험해볼 수 있습니다.
 
+
+</br>
+
+[⬆️ 목차로 이동](#목차)
+
+------
+
+</br>
+
+
+## 무엇부터 공부하면 모를 때 보면 좋은 애플 기본 라이브러리 오브젝트 및 문법 공부 목록
+위의 글을 읽어도 어떻게 시작해야 할지 무엇부터 해야할지 모르겠다면, 우선 앱을 만들 때 사용하는 애플 기본 라이브러리들 부터 다뤄보아요!  
+다뤄보면서 이해가 안가거나 부족한 문법을 채워나가면서 시작하는 것도 좋은 방법일 것 같아요~!  
+
+</br>
+
+생각나는대로 우선 적어보았으니 참고해보세요 :)
+
+```
+애플 필수 기본 라이브러리 
+-----------------------------------------------------------
+[ UI 관련 ]
+-----------------------------------------------------------
+- UI 구성방법 & AutoLayout
+    - Storyboard
+    - Codebase로 구성하기
+- Components
+    - UITextField
+    - UILabel
+    - UITextView
+    - UIButton
+    - Segment Control
+    - UISwitch
+    - UISlider
+    - UIImageView
+        - UIImage
+    - UINavigationBar
+        - right / left navigationbar items
+    - UISearchBar
+
+-----------------------------------------------------------
+[ View 관련 ]
+-----------------------------------------------------------
+- UITableView
+    - row, section
+    - Custom HeaderView
+- UICollectionView
+    - row, section
+    - Custom HeaderView
+- UIStackView
+- UIScrollView
+- WKWebView
+- MKMapView
+- Activity Indicator View
+- CustomView (code base)
+
+-----------------------------------------------------------
+[ Controller 관련 ]
+-----------------------------------------------------------
+- UIViewController
+- UINavigationController
+- UITabbarController
+- UISearchController
+- ActivityController
+
+-----------------------------------------------------------
+[ 데이터 저장 관련 ]
+-----------------------------------------------------------
+- UserDefaults
+- CoreData
+- FileManager
+
+-----------------------------------------------------------
+[ 네트워크 관련 ]
+-----------------------------------------------------------
+- URLSession
+- Decodable
+- Codable
+- JsonDecoder
+    - try, catch 구문의 활용
+
+-----------------------------------------------------------
+[ 기타 ]
+-----------------------------------------------------------
+- Timer
+- UIAlert
+- DatePicker
+    - DateFormatter
+- Struct, Class
+- Extension
+    - UIColor, UIFont ... 등을 확장하여 모듈화
+    - String, Int, .. 등 기본 데이터 타입의 확장
+- Property
+    - Stored Property
+    - Lazy Stored Property (lazy)
+    - Computed Property (get, set)
+    - Type Property (static , class)
+    - Property Observer (didset, willset)
+```
 
 </br>
 
