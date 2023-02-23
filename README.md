@@ -44,9 +44,11 @@ iOS 개발자를 꿈꾸는 분들 환영합니다 ~~
     - [클린 아키텍처](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=202322454) `⭐️⭐️⭐️⭐️`
 - [ 프로그래머를 위한 지침서 ]
     - [실용주의 프로그래머](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=288786463) `⭐️`
-    - [프로그래밍 수련법](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=1711579) `⭐️`
+    - [프로그래밍 수련법](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=1711579) `⭐️` 
+    - [조엘 온 소프트웨어](http://www.yes24.com/Product/Goods/1469763) `⭐️`
 - [ 아키텍처 ]
     - [리팩터링](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=236186172) `⭐️⭐️⭐️⭐️`
+    - [컴퓨터 프로그램의 구조와 해석](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=75122015) `⭐️⭐️⭐`
 - [ 프로그래밍 패러다임 ]
     - [객체지향의 사실과 오해](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=60550259) `⭐️⭐️⭐️`
     - [오브젝트](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=193681076) `⭐️⭐️⭐️⭐️`
