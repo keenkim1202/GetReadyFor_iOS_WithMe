@@ -37,7 +37,7 @@
     - SearchController
     - Extension
     - 고차함수 (Map, Filter)
-- [MyCaelendar](/Basic_Examples/Projects/MyCalendar/)
+- [MyCalendar](/Basic_Examples/Projects/MyCalendar/)
     - SPM
     - FSCalendar 설치 및 메소드 다루기
     - tableView와 FSCalendar 연헤서 데이터 다루기
